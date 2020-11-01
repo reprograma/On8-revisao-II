@@ -173,7 +173,7 @@ Vamos consumir as APIs do Github e do Giphy para determinar um humor.
 **Esse é o funcionamento esperado, olha que fofo:**
 <br>
 <br>
-  <img src="https://media.giphy.com/media/x7ZzvOlibouBL8QTOt/giphy.gif" alt="Gif Yeah" width="600">
+  <img src="https://media.giphy.com/media/G0tZPazVjHh061NpyO/giphy.gif" alt="Gif Yeah" width="600">
   <br>
 
 
@@ -197,17 +197,18 @@ Vamos consumir as APIs do Github e do Giphy para determinar um humor.
 <BR>
 
 > Algoritmo:
-1) assistir o evento de clique do botão submit
-2) quando houver clique <br>
-  a) recebe o valor do input <br>
-  b) passa para a chamada de API do Github <br>
-  c) do objeto recebido, pegar somente o nome <br>
-  d) inserir esse nome junto com ", seu humor hoje é: " no placeholder <br>
+1) capturar elementos do HTML
+2) assistir o evento de clique do botão
+3) quando houver clique <br>
+  a) previne o comportamento padrão do navegador<br>
+  b) pega o valor do input<br>
+  c) passa para a chamada de API do Github e do objeto recebido, pegar somente o nome<br>
+  d) inserir esse nome junto com ", seu humor hoje é: " no resultado <br>
   e) fazer chamada e API do giphy <br>
   f) receber a array <br>
-  g) pegar um número aleatório de 0 a 24 <br>
-  h) pegar a url da imagem do item escolhido <br>
-  i) inserir a url da imagem no src do placeholder <br>
+  g) reduzir os indices a um indice aleatório da array <br>
+  h) pegar a url da imagem do item sorteado <br>
+  i) criar imagem e inserir a url da imagem no <br>
 
 
 
