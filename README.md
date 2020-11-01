@@ -4,10 +4,12 @@ Como você está lidando com esse processo de transição?
 
 Aprender a aprender pode ser muito doloroso, mas eu te garanto uma coisa: é libertador!  🚀
 
-* Vamos começar com um momento só nosso ❤️
-* Depois vamos revisar alguns dos conceitos estudados nas últimas semanas: consumo de API
-* Teremos bastante treino!
-* E de quebra um projetinho guiado massa pra chamar de seu!
+* Vamos começar com um momento só nosso ❤️ 20min
+* Depois vamos revisar alguns dos conceitos estudados nas últimas semanas: consumo de API 30min
+* Intervalo 10min
+* Teremos bastante treino!1h50min
+* Intervalo 10min
+* E de quebra um projetinho guiado massa pra chamar de seu! 1h
 
 ---
 
@@ -99,9 +101,18 @@ removeChild()
 elemento.style.propriedade = "valor"<br>
 
 
+### Alguns padrões e sintaxes de Javascript
+
+Você precisa aprender 7 conceitos fundamentais: variáveis, tipos, desestruturação de dados, recuperação de dados (principalmente objetos, arrays e arrays like), funcões, operadores, condicionais, fetch api(promises) e eventos.
+
+ Agora, você precisa aprender a sintaxe(como escrever cada coisa), depois você precisa trazer seu modo de pensar para execuções dentro do seu projeto, dê um passo de cada vez e de repente você tem uma aplicação inteirinha pra chamar de sua. Esse passo não vai ser rápido
+
+
+
 ### ASSINCRONICIDADE
-Você vai num restaurante, pede uma bebida e escolhe a comida. O garçon traz a bebida enquanto a comida ainda não está pronta.
-Esse é um processo assíncrono, uma requisição não depende da outra pra obter uma resposta.
+Exemplo: Você vai num restaurante, escolhe a comida e escolhe uma bebida. O garçon traz a bebida antes enquanto a comida ainda não está pronta.
+Esse é um processo assíncrono, a segunda requisição não depende da primeira ser executada antes pra obter uma resposta.
+
 
 ### FETCH
 A API Fetch fornece o método global fetch() para termos de uma maneira lógica e fácil para buscar recursos de forma assíncrona.
@@ -115,33 +126,43 @@ Elas são funções que devolvem resultados de sucesso ou erro, depois de um tem
 .then > resolve<br>
 .catch > reject
 
+### ASYNC/AWAIT
+
+A partir do ES8 e surgiu para resolver o problema de aninhamento de thens. 
+
+É simples: primeiro definimos uma função que precisa ser async e dentro do bloco de execução devemos colocar o await.
+
+
 ### BÔNUS: AXIOS
 Biblioteca AJAX baseada em promises que facilita nossas requisições de forma assíncrona.
 
-*importar antes do script principal*
+> *sempre importar o axios antes do script principal*
 
 **Exemplos:**
 
 | Recurso | Descrição |
 | --- | --- |
-| `/musicas` | A partir do parâmetro ID para escolher uma determinada música, vamos alterar o nome da música usando o PUT|
+| `/db` | Usando fetch e promise(then e catch), liste os dados do recurso no console e depois renderize como uma lista na tela.|
 
 | Recurso | Descrição |
 | --- | --- |
-| `/musicas` | A partir de um parâmetro para escolher uma determinada música, usando o PATCH vamos alterar o nome da música|
+| `/css` | Usando fetch e promise(then e catch), liste os dados do recurso no console e depois renderize como um grupo de cards com a imagem e o titulo.|
 
 | Recurso | Descrição |
 | --- | --- |
-| `/albuns` | A partir de um parâmetro para escolher um determinado album, vamos alterar o dado de name, usando o verbo PUT|
+| `/javascript` | Usando fetch e promise, liste os dados do recurso no console e depois renderize como um grupo de cards com a imagem e o titulo.|
 
 | Recurso | Descrição |
 | --- | --- |
-| `/albuns` |  A partir de um parâmetro para escolher um determinado album, vamos alterar o dado de name, usando o verbo PATCH|
+| `/logica` |  Usando fetch e promise, liste os dados do recurso no console e depois renderize como como um grupo de cards com a imagem e o titulo.|
 
+| Recurso | Descrição |
+| --- | --- |
+| `/html` |  Usando fetch e promise, liste os dados do recurso no console e depois renderize como como um grupo de cards com a imagem e o titulo.|
 
-
-
-
+| Recurso | Descrição |
+| --- | --- |
+| `/db` |  Usando async/await e axios A partir de um parâmetro para escolher um determinado assunto, vamos renderizar na tela uma lista com as informações de título|
 
 ---
 **Desafio:**
@@ -197,5 +218,5 @@ Vamos consumir as APIs do Github e do Giphy para determinar um humor.
 - [linkedin](https://www.linkedin.com/in/simaraconceicao/)
 - [github](https://github.com/simaraconceicao)
 - [spotify](https://open.spotify.com/show/59vCz4TY6tPHXW26qJknh3)
-- [blog](https://simaraconceicao.com/blog)
+- [quero ser dev](https://queroserdev.com)
 - email: contato@simaraconceicao.com
