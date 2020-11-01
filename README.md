@@ -142,7 +142,7 @@ Biblioteca AJAX baseada em promises que facilita nossas requisições de forma a
 
 | Recurso | Descrição |
 | --- | --- |
-| `/db` | Usando fetch e promise(then e catch), liste os dados do recurso no console e depois renderize como uma lista na tela.|
+| `/db` |Usando fetch e promise(then), liste os dados do recurso no console|
 
 | Recurso | Descrição |
 | --- | --- |
@@ -160,9 +160,7 @@ Biblioteca AJAX baseada em promises que facilita nossas requisições de forma a
 | --- | --- |
 | `/html` |  Usando fetch e promise, liste os dados do recurso no console e depois renderize como como um grupo de cards com a imagem e o titulo.|
 
-| Recurso | Descrição |
-| --- | --- |
-| `/db` |  Usando async/await e axios A partir de um parâmetro para escolher um determinado assunto, vamos renderizar na tela uma lista com as informações de título|
+
 
 ---
 **Desafio:**
