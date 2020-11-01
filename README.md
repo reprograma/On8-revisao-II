@@ -180,7 +180,7 @@ Vamos consumir as APIs do Github e do Giphy para determinar um humor.
 #### 📂
 > Criamos uma interface onde um input determina um parâmetro para ser filtrado e retorna um usuário do recurso users da API do github.
 
-> Além disso, estamos também listando o recurso gifs da Api do Giphy, filtrando os 25 trending e mostrando um gif na tela de forma randômica. 
+> Além disso, estamos também listando o recurso gifs da Api do Giphy, filtrando os 50 trending e mostrando um gif na tela de forma randômica. 
 
 > Criamos uma visualização para os dados retornados
 
