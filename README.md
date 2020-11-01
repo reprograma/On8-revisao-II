@@ -146,7 +146,7 @@ Biblioteca AJAX baseada em promises que facilita nossas requisições de forma a
 
 | Recurso | Descrição |
 | --- | --- |
-| `/css` | Usando fetch e promise(then e catch), liste os dados do recurso no console e depois renderize como um grupo de cards com a imagem e o titulo.|
+| `/css` | Usando fetch e promise(then e catch), liste os dados do recurso no console e depois renderize como uma lista de titulos.|
 
 | Recurso | Descrição |
 | --- | --- |
