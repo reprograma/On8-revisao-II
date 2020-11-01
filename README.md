@@ -7,9 +7,9 @@ Aprender a aprender pode ser muito doloroso, mas eu te garanto uma coisa: é lib
 * Vamos começar com um momento só nosso ❤️ 20min
 * Depois vamos revisar alguns dos conceitos estudados nas últimas semanas: consumo de API 30min
 * Intervalo 10min
-* Teremos bastante treino!1h50min
+* Teremos bastante treino!1h20min
 * Intervalo 10min
-* E de quebra um projetinho guiado massa pra chamar de seu! 1h
+* E de quebra um projetinho guiado massa pra chamar de seu! 1h30min
 
 ---
 
