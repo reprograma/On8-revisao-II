@@ -1,1 +1,1 @@
-//https://my-json-server.typicode.com/simaraconceicao/base-minuto/html
+//https://my-json-server.typicode.com/simaraconceicao/base-sabedoria/javascript

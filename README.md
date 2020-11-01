@@ -150,7 +150,7 @@ Biblioteca AJAX baseada em promises que facilita nossas requisições de forma a
 
 | Recurso | Descrição |
 | --- | --- |
-| `/javascript` | Usando fetch e promise, liste os dados do recurso no console e depois renderize como um grupo de cards com a imagem e o titulo.|
+| `/html` |  Usando fetch e promise, liste os dados do recurso no console e depois renderize como como um grupo de cards com a imagem e o titulo.|
 
 | Recurso | Descrição |
 | --- | --- |
@@ -158,7 +158,7 @@ Biblioteca AJAX baseada em promises que facilita nossas requisições de forma a
 
 | Recurso | Descrição |
 | --- | --- |
-| `/html` |  Usando fetch e promise, liste os dados do recurso no console e depois renderize como como um grupo de cards com a imagem e o titulo.|
+| `/javascript` | Usando axios e async/await, liste os dados do recurso renderizando como um grupo de cards com a imagem e o titulo.|
 
 
 
